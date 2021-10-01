@@ -6,7 +6,7 @@ namespace cse210.td03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to our collaborative progarm");
+            Console.WriteLine("Welcome to our collaborative program - Benjamin Bell");
         }
     }
 }
