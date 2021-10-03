@@ -10,11 +10,6 @@ namespace cse210.td03
             displayGreetingWilcox();
             displayMathProblemBell();
 
-            void displayMathProblemBell()
-            {
-                int problem = 1 + 3 + 4;
-                Console.WriteLine($"1 + 3 + 4 = {problem}. Courtesy of Benjamin Bell.");
-            }
             string displayGreetingWilcox()
             {
                 chase = ("Hello from Chase Wilcox");
@@ -23,6 +18,11 @@ namespace cse210.td03
             }
             benInto();
         }
+        static void displayMathProblemBell()
+            {
+                int problem = 1 + 3 + 4;
+                Console.WriteLine($"1 + 3 + 4 = {problem}. Courtesy of Benjamin Bell.");
+            }
         static void benInto()
         {
             Console.WriteLine("Hello from Ben Johnson");
