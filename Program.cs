@@ -7,10 +7,14 @@ namespace cse210.td03
         static void Main(string[] args)
         {
             string chase = "";
-            Console.WriteLine("Welcome to our collaborative program - Benjamin Bell");
-
             displayGreetingWilcox();
+            displayMathProblemBell();
 
+            void displayMathProblemBell()
+            {
+                int problem = 1 + 3 + 4;
+                Console.WriteLine($"1 + 3 + 4 = {problem}. Courtesy of Benjamin Bell.");
+            }
             string displayGreetingWilcox()
             {
                 chase = ("Hello from Chase Wilcox");
