@@ -17,6 +17,11 @@ namespace cse210.td03
                 Console.WriteLine(chase);
                 return chase;
             }
+            benInto();
+        }
+        static void benInto()
+        {
+            Console.WriteLine("Hello from Ben Johnson");
         }
     }
 }
