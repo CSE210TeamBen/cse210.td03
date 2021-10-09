@@ -14,7 +14,6 @@ namespace cse210.td03
             {
                 chase = ("Hello from Chase Wilcox");
                 Console.WriteLine(chase);
-                return chase;
             }
             benInto();
         }
